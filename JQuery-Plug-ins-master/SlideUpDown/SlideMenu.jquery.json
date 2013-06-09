@@ -1,0 +1,29 @@
+{
+    "name": "SlideMenu",
+    "title": "jQuery SlideMenu",
+    "description": "This Plug-in is used Take the menu control with CSS3",
+    "keywords": [
+        "SlideMenu"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "A.Kiran Kumar",
+        "url": "https://github.com/kiranml1/SlideMenu.git"
+    },
+    "maintainers": [
+        {
+           "name": "A.Kiran Kumar",
+            "email": "kiran_bubblyml1@yahoo.com",
+            "url": "kiranml1.wordpress.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/kiranml1/SlideMenu/MIT-LICENSE.txt"
+        }
+    ],
+	"dependencies": {
+        "jquery": ">=1.5"
+    }
+}

@@ -1,0 +1,42 @@
+/*
+**
+Name: Checking Slide Plug-in
+Description: this plug-in used in making the check of two two options to geta achecked value and take the control of the
+hidden checkebox for the insertion
+*/
+
+var namespace = {};
+		
+namespace.page_1 = function()
+	{
+		var tog = true;
+		$('#quicktabs-tabpage-add_content-1 #Vim').click(function(){
+			if(tog)
+			{
+				$('#quicktabs-tabpage-add_content-1 .fopt').slideDown();
+				tog=false;
+			}
+			else
+			{
+				$('#quicktabs-tabpage-add_content-1 .fopt').not('#quicktabs-tabpage-add_content-1 #selected.fopt').slideUp();
+				tog=true;
+			}
+		});
+		
+		$('#quicktabs-tabpage-add_content-1 .fopt').click(function(){
+			$truth = $(this).text();
+			if($truth == 'Private')
+			{
+				$('#quicktabs-tabpage-add_content-1 #edit-flag-friend-control--3 input[type=checkbox]').attr('checked','checked');
+				$('#quicktabs-tabpage-add_content-1 #selected').text($truth);
+				$('#quicktabs-tabpage-add_content-1 .fopt').not('#quicktabs-tabpage-add_content-1 #selected').html('Public');
+			}
+			else if($truth == 'Public')
+			{
+				$('#quicktabs-tabpage-add_content-1 #edit-flag-friend-control--3 input[type=checkbox]').removeAttr('checked');
+				$('#quicktabs-tabpage-add_content-1 #selected').text($truth);
+				$('#quicktabs-tabpage-add_content-1 .fopt').not('#quicktabs-tabpage-add_content-1 #selected').html('Private');
+			}
+		});
+	};
+namespace.page_1();

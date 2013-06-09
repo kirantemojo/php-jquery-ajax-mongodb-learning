@@ -1,0 +1,72 @@
+<<<<<<< HEAD
+<html>
+<script>
+
+
+
+var buffer = new ArrayBuffer(64);
+
+var data = new DataView(buffer);
+var int = data.byteLength / 4;
+alert(int);
+
+/*
+// View as an array of Uint8s and put 0x05 in each byte
+var uint8s = new Float64Array(buffer);
+for (var i = 0; i < 8; i++) {
+    uint8s[i] = 5; // fill each byte with 0x05
+	document.write(uint8s[i]);
+}
+
+// Inspect the resulting array
+uint8s[0] === 5; // true - each byte has value 5
+uint8s.byteLength === 8; // true - there are 8 Uint8s
+
+// View the same buffer as an array of Uint32s 
+var uint32s = new Uint32Array(buffer);
+
+ 
+// The same raw bytes are now interpreted differently
+uint32s[0] === 84215045 // true - 0x05050505 == 84215045
+
+
+
+*/
+</script>
+=======
+<html>
+<script>
+
+
+
+var buffer = new ArrayBuffer(64);
+
+var data = new DataView(buffer);
+var int = data.byteLength / 4;
+alert(int);
+
+/*
+// View as an array of Uint8s and put 0x05 in each byte
+var uint8s = new Float64Array(buffer);
+for (var i = 0; i < 8; i++) {
+    uint8s[i] = 5; // fill each byte with 0x05
+	document.write(uint8s[i]);
+}
+
+// Inspect the resulting array
+uint8s[0] === 5; // true - each byte has value 5
+uint8s.byteLength === 8; // true - there are 8 Uint8s
+
+// View the same buffer as an array of Uint32s 
+var uint32s = new Uint32Array(buffer);
+
+ 
+// The same raw bytes are now interpreted differently
+uint32s[0] === 84215045 // true - 0x05050505 == 84215045
+
+
+
+*/
+</script>
+>>>>>>> 0498a510dd3669b37c19f161fdfda8c6fac004bd
+</html>

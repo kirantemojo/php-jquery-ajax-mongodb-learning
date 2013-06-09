@@ -1,0 +1,37 @@
+//Image Ticking Plug-in - Where it does give the functionality for selctiing the images from the checkbox selection
+
+
+//PLUG-IN Image-Ticking
+//Name: A.Kiran Kumar
+//Company: KEFEX STUDIOS
+
+(function($){
+  
+	$.fn.sel = function()
+	{
+		$this = $(this);
+		$(this).next().hide();
+		$(this).click(function(){
+			$(this).next().slideToggle();
+		});
+		
+		$(this).next().find('input[type="checkbox"]').click(function(){
+			if($(this).is(':checked'))
+			{
+				$nam = $(this).next().find('span').text();
+				$item = $(this).next().find('img').attr('src');
+				$this.parent().prepend("<span id="+$nam+" style='margin:2px;'><img src="+$item+" width='20px' height='20px' alt="+$nam+" title="+$nam+"></span>");
+			}
+			else
+			{	
+				$nam = $(this).next().find('span').text();
+				$("#"+$nam).remove();
+			}
+		});	
+	}
+})(jQuery);
+
+// Initialiasing the Plug-in
+// Selector Can be of our reqiurment
+
+$('.group-post-tag-friends h3').sel();

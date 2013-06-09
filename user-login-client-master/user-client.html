@@ -1,0 +1,48 @@
+<!doctype html>
+</html>
+    <head>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="gotte">
+			
+		</div>
+		<script>
+			(function(){
+				$.fn.don = function(options){
+					var thIs = $(this);
+					var settings = {};
+					
+					$('<div>',{id:'login'}).appendTo(thIs);
+					$('<label>',{for:'user'}).html("Name:").appendTo('#login');
+					$('<input>',{id:'name',type:"text",name:"user"}).appendTo('#login');
+					$('<label>',{for:'pass'}).html("Password:").appendTo('#login');
+					$('<input>',{id:'pass',type:"password",name:"pass"}).appendTo('#login');
+					$('<input>',{id:'submit',type:"submit",name:"submitted"}).appendTo('#login');
+					
+					if(options)
+					{
+						$.extend(settings,options);
+						if((settings.v)=="y")
+						{
+							$('#login').width("220px");
+							$('#login').height("500px");
+							$('#name,#pass').attr('size','20');
+							$('label:first-child,input[type="text"]').wrapAll("<p></p>");
+							$('label:nth-child(2),input[type="password"]').wrapAll("<p></p>");
+							$('#submit').wrap("<p></p>");
+							$('p').css('text-align','right');
+						}
+						else if((settings.v)=="n")
+						{
+							$('#name,#pass,#submit').after('&nbsp;&nbsp;&nbsp;');
+						}
+					}
+				}
+			})(jQuery);
+			$(document).ready(function(){
+				$('#gotte').don({"v":"y"});
+			});
+		</script>
+	</body>
+</html>

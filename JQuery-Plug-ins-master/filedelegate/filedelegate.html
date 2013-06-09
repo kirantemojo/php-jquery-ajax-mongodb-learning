@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <title>Client Side File Upload</title>
+    <head>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="filedelegate.js"></script>
+        <script>
+            $(document).ready(function(){
+                    $(document).fildelegate();
+                });
+        </script>
+    </head>
+    <style>
+        #supercontainer
+        {
+            width:400px;
+            height:600px;
+            background-color:#f60;
+            margin:0 auto;
+        }
+        #container
+        {
+            width:300px;
+            height:500px;
+            background-color:#f2f2f2;
+             margin:0 auto;
+        }
+        #custom
+        {
+            position:relative;
+            top:20px;
+            left:30%;
+        }
+    </style>
+    <body>
+        <div id="supercontainer">
+            <div id="container">
+                <div id="custom">
+                <input type="file" class="form-delegate">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

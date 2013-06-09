@@ -1,0 +1,82 @@
+<<<<<<< HEAD
+<!doctype html>
+<html>
+<head>
+<style>
+div
+{
+	width:100px;
+	height:100px;
+	background-color:#f60;
+	position:absolute;
+}
+.active
+{
+	background-color:blue;
+}
+</style>
+</head>
+<body>
+	<div></div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('div').animate({width:"300px"});
+			$('div').animate({height:"300px"});
+			$('div').queue(function(){
+				$(this).addClass('active');
+				$(this).dequeue();
+			});
+			$('div').animate({width:"100px"});
+			$('div').animate({height:"100px"});
+			$.when($('div:animated')).then(function(){
+				alert('fired');
+			});
+			$('div').promise().done(function(){
+				$('div').append('finished').css('color','white');
+			});
+		});
+	</script>
+</body>
+=======
+<!doctype html>
+<html>
+<head>
+<style>
+div
+{
+	width:100px;
+	height:100px;
+	background-color:#f60;
+	position:absolute;
+}
+.active
+{
+	background-color:blue;
+}
+</style>
+</head>
+<body>
+	<div></div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('div').animate({width:"300px"});
+			$('div').animate({height:"300px"});
+			$('div').queue(function(){
+				$(this).addClass('active');
+				$(this).dequeue();
+			});
+			$('div').animate({width:"100px"});
+			$('div').animate({height:"100px"});
+			$.when($('div:animated')).then(function(){
+				alert('fired');
+			});
+			$('div').promise().done(function(){
+				$('div').append('finished').css('color','white');
+			});
+		});
+	</script>
+</body>
+>>>>>>> 0498a510dd3669b37c19f161fdfda8c6fac004bd
+</html>
