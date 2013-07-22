@@ -1,0 +1,71 @@
+/* line 18, tmp/chance//home/innominds/sproutcore/development/sproutcore/getting_started/apps/todosthree/resources/main_page-css.scss */
+.ace.todosthree.sc-label-view.welcome-label {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.5) 0 1px 1px;
+}
+
+/* line 6, tmp/chance//home/innominds/sproutcore/development/sproutcore/getting_started/apps/todosthree/resources/styles-css.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+/* line 12, tmp/chance//home/innominds/sproutcore/development/sproutcore/getting_started/apps/todosthree/resources/styles-css.scss */
+.sc-pane {
+  -webkit-transform: none;
+}
+
+/* line 16, tmp/chance//home/innominds/sproutcore/development/sproutcore/getting_started/apps/todosthree/resources/styles-css.scss */
+.ace.todos-three.sc-text-field-view {
+  font-size: 14px;
+}
+/* line 18, tmp/chance//home/innominds/sproutcore/development/sproutcore/getting_started/apps/todosthree/resources/styles-css.scss */
+.ace.todos-three.sc-text-field-view .hint {
+  font-size: 14px;
+  line-height: 30px;
+}
+/* line 23, tmp/chance//home/innominds/sproutcore/development/sproutcore/getting_started/apps/todosthree/resources/styles-css.scss */
+.ace.todos-three.sc-text-field-view .padding {
+  left: 14px;
+}
+
+/* line 30, tmp/chance//home/innominds/sproutcore/development/sproutcore/getting_started/apps/todosthree/resources/styles-css.scss */
+.ace.todos-three.toolbar .checkbox .button {
+  left: 13px;
+  top: 50%;
+  margin-top: -8px;
+}
+/* line 36, tmp/chance//home/innominds/sproutcore/development/sproutcore/getting_started/apps/todosthree/resources/styles-css.scss */
+.ace.todos-three.toolbar .checkbox .label {
+  left: 47px;
+  line-height: 36px;
+}
+/* line 42, tmp/chance//home/innominds/sproutcore/development/sproutcore/getting_started/apps/todosthree/resources/styles-css.scss */
+.ace.todos-three.toolbar .sc-label-view {
+  text-align: right;
+  line-height: 36px;
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 12px;
+}
+
+/* line 52, tmp/chance//home/innominds/sproutcore/development/sproutcore/getting_started/apps/todosthree/resources/styles-css.scss */
+.ace.todos-three.todo-item .button {
+  left: 13px;
+  top: 50%;
+  margin-top: -8px;
+}
+/* line 58, tmp/chance//home/innominds/sproutcore/development/sproutcore/getting_started/apps/todosthree/resources/styles-css.scss */
+.ace.todos-three.todo-item .label {
+  left: 47px;
+  line-height: 36px;
+}
+/* line 63, tmp/chance//home/innominds/sproutcore/development/sproutcore/getting_started/apps/todosthree/resources/styles-css.scss */
+.ace.todos-three.todo-item.sel {
+  background-color: white;
+  color: #AAA;
+  text-decoration: line-through;
+}
+

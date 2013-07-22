@@ -1,0 +1,59 @@
+
+@font-face {
+	font-family: Silkscreen;
+	src: url('slkscre.ttf');
+}
+
+
+.sc-theme .sc-pane.sc-main.theather_mode {
+  background: black;
+}
+
+.sc-pane {
+  -webkit-transition: background-color 1s ease-in-out;
+}
+
+.reflector
+{ 
+	-webkit-box-reflect: below 1 -webkit-gradient(linear, left top, left bottom, color-stop(0.5, transparent), color-stop(1.0, rgba(255, 255, 255, 0.5)));
+}
+
+.sproutfont
+{
+  font-family: Silkscreen;
+  font-size: 24px !important;
+  color: grey;
+}
+
+
+.credits
+{
+  color:white;
+}
+
+.sc-theme .sc-pane.sc-main {
+	background-image: none !important;
+}
+
+.theather_mode .videoWrapper
+{
+  overflow: visible !important;
+}
+.theather_mode .reflector
+{ 
+  background: black;
+  -webkit-box-reflect: below 1px -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0.5, transparent), to(rgba(255, 255, 255, 0.496094))) 0 0 0 0 stretch stretch;
+}
+.properties {
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.sc-media-controls{
+  background: black;
+  opacity:0;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+
+.videoWrapper:hover .sc-media-controls{
+  opacity: 0.7;
+}

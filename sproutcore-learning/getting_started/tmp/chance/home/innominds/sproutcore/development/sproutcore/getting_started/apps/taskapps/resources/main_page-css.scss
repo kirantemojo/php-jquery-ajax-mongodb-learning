@@ -1,0 +1,29 @@
+
+$theme: '.ace.taskapps';#{$theme}.sc-label-view.welcome-sprout {
+    font-size:14px;
+    line-height:24px;
+    text-align: left;
+    text-shadow:rgba(255,255,255,0.5) 0 1px 1px;
+}
+#{$theme}.sc-grid-view.gridview {
+	background-color: #c2c2c2;
+	border:1px solid #000;
+}
+
+div.face-back img
+{
+	width:200px;
+	height:200px;
+}
+div.task-grid-view
+{
+	position:absolute;
+	z-index:10;
+	background:rgba(0,0,0,0.5);
+	width:192px;
+	color:#fff;
+	font-weight: bold;
+	padding:4px;
+	bottom:0;
+	display:none;
+}

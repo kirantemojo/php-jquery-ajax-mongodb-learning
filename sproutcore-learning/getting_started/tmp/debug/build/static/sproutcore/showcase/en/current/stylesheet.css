@@ -1,0 +1,484 @@
+/* Slice resources/images/pixels_0_0___0_0, used in: 
+	resources/stylesheet.css;
+	resources/stylesheet.css;
+*/
+/* line 4, tmp/chance/image_css/sproutcore/showcase/_image_css.scss */
+ .ace.showcase.views-item-view, .ace.showcase.welcome-view {
+  background-image: url('/static/sproutcore/showcase/en/current/stylesheet-resources/images/pixels.png?1372933691')
+;
+}
+
+/* Base
+--------------------------------------------- */
+/* line 7, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/api-css.scss */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* line 12, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/api-css.scss */
+i {
+  font-style: italic;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+/* line 18, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/api-css.scss */
+header[role="banner"] {
+  overflow: hidden;
+  border-bottom: 1px solid #000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+  z-index: 999;
+  background: url('/static/sproutcore/showcase/en/current/source/resources/images/pixels.png?1372933691') repeat-x, url('/static/sproutcore/showcase/en/current/source/resources/images/cross.png?1372933691') #225782;
+  -webkit-box-shadow: 0 1px 9px rgba(0, 0, 0, 0.5), inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 0 1px 9px rgba(0, 0, 0, 0.5), inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.5), inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* line 31, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/api-css.scss */
+#logo,
+[role="banner"] nav,
+[role="banner"] form {
+  float: left;
+}
+
+/* line 37, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/api-css.scss */
+#logo {
+  margin-top: 11px;
+  width: 160px;
+}
+
+/* line 44, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/api-css.scss */
+[role="banner"] nav {
+  width: 600px;
+  text-align: center;
+}
+
+/* line 49, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/api-css.scss */
+[role="banner"] nav li {
+  display: inline-block;
+  padding: 16px 15px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+/* line 58, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/api-css.scss */
+[role="banner"] nav li.active {
+  background: url('/static/sproutcore/showcase/en/current/source/resources/images/glow.png?1372933691') no-repeat 50% 0;
+}
+
+/* line 62, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/api-css.scss */
+[role="banner"] nav li.disabled {
+  opacity: 0.25;
+}
+
+/* line 67, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/api-css.scss */
+[role="banner"] nav a:link,
+[role="banner"] nav a:visited {
+  color: #fff;
+}
+
+/* line 72, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/api-css.scss */
+[role="banner"] nav a:hover,
+[role="banner"] nav .active a {
+  color: #7dbcff;
+}
+
+/* line 79, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/api-css.scss */
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+/* line 8, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-source-list.main-source-list {
+  background-color: #FFF;
+}
+/* line 11, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-source-list.main-source-list .sc-collection-item.even {
+  background-color: #F7F7F7;
+}
+
+/* line 16, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.views-list-view {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(0, 0, 0, 0.2)));
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.2));
+  background-image: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.2));
+  background-image: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.2));
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.2));
+  background-color: #a1a1a1;
+}
+
+/* line 21, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.views-item-view {
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  background-color: #8fc4f8;
+  border-bottom: 1px solid #5d88b6;
+  border-top: 1px solid #a5d1ff;
+}
+/* line 28, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.views-item-view.last-item {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 10px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 10px 0px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 10px 0px;
+}
+/* line 32, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.views-item-view .example-box {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 5px inset, rgba(255, 255, 255, 0.8) 0px 1px 7px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 5px inset, rgba(255, 255, 255, 0.8) 0px 1px 7px 1px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 5px inset, rgba(255, 255, 255, 0.8) 0px 1px 7px 1px;
+  background-color: rgba(50, 50, 50, 0.1);
+}
+/* line 38, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.views-item-view .sc-disclosure-view {
+  line-height: 30px;
+}
+/* line 41, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.views-item-view .sc-disclosure-view .disclosure {
+  margin-top: -5px;
+  top: 50%;
+}
+/* line 46, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.views-item-view .sc-disclosure-view .sc-button-label {
+  text-decoration: underline;
+}
+/* line 51, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.views-item-view .sc-text-field-view.snippet-field {
+  background-color: #e6f4ff;
+  font-family: Menlo, Monaco, monospace;
+  font-size: 13px;
+}
+/* line 58, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.views-item-view .sc-text-field-view.centered-field .field {
+  text-align: center;
+}
+/* line 63, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.views-item-view .title-label {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: right;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px -1px 1px;
+}
+
+/* line 74, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.welcome-view {
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  background-color: #8fc4f8;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* line 84, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.welcome-view h1 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 1.2em;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px -1px 1px;
+}
+/* line 93, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.welcome-view h2 {
+  color: #fff;
+  font-size: 25px;
+  margin: 1em;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px -1px 1px;
+}
+/* line 100, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.welcome-view p {
+  font-size: 16px;
+  margin: 1em 2em;
+}
+/* line 105, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.welcome-view footer {
+  bottom: 0;
+  height: 20px;
+  left: 0px;
+  padding-left: 10px;
+  position: absolute;
+  right: 0;
+}
+
+/* line 117, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.grid-example-view .sc-label-view {
+  text-align: center;
+}
+
+/* line 123, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-image-button-view.my-image-button {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+  background-color: #ececec;
+  border: 1px solid #7f7f7f;
+}
+/* line 129, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-image-button-view.my-image-button .img {
+  margin: 4px;
+}
+/* line 133, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-image-button-view.my-image-button.active {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background-color: #d0d7db;
+}
+
+/* line 140, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-image-view.my-image-view {
+  background-color: #ececec;
+  border: 1px solid #7f7f7f;
+}
+
+/* line 146, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.my-label-view {
+  text-align: center;
+}
+/* line 149, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.my-label-view.icon img {
+  margin-right: 3px;
+}
+/* line 153, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.my-label-view.sc-tiny-size {
+  line-height: 11px;
+}
+/* line 156, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.my-label-view.sc-tiny-size.icon img {
+  top: -2px;
+}
+/* line 161, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.my-label-view.sc-small-size {
+  line-height: 15px;
+}
+/* line 164, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.my-label-view.sc-small-size.icon img {
+  top: -2px;
+}
+/* line 169, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.my-label-view.sc-regular-size {
+  line-height: 16px;
+}
+/* line 172, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.my-label-view.sc-regular-size.icon img {
+  top: -1px;
+}
+/* line 177, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.my-label-view.sc-large-size {
+  line-height: 24px;
+}
+/* line 180, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.my-label-view.sc-large-size.icon img {
+  margin-right: 4px;
+  top: -4px;
+}
+
+/* line 189, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-list-view.my-list-view .sc-list-item-view img.icon {
+  margin-top: -12px;
+}
+/* line 193, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-list-view.my-list-view .sc-list-item-view.has-checkbox img.icon {
+  left: 29px;
+}
+/* line 197, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-list-view.my-list-view .sc-list-item-view.has-checkbox.has-icon label {
+  left: 58px;
+}
+
+/* line 203, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-scroll-view.my-scroll-view {
+  background-color: #ececec;
+  border: 1px solid #7f7f7f;
+}
+
+/* line 208, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-static-content-view.my-static-content-view {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #7f7f7f;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  top: 20px;
+}
+/* line 213, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-static-content-view.my-static-content-view header {
+  background-color: #606060;
+  border-bottom: 1px solid #373737;
+}
+/* line 217, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-static-content-view.my-static-content-view header h1 {
+  padding: 20px 0px 15px 0px;
+  text-align: center;
+}
+/* line 222, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-static-content-view.my-static-content-view header .note {
+  color: white;
+  font-size: 11px;
+  height: 14px;
+  line-height: 14px;
+  margin-left: 5px;
+  margin-top: 5px;
+  position: absolute;
+}
+/* line 233, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-static-content-view.my-static-content-view .body {
+  border-top: 1px solid #919191;
+  color: #363636;
+  font-size: 15px;
+}
+/* line 238, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-static-content-view.my-static-content-view .body ul {
+  list-style-type: circle;
+  margin: 2em 3em;
+}
+/* line 243, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-static-content-view.my-static-content-view .body p {
+  margin: 2em;
+}
+
+/* line 250, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-web-view.my-web-view {
+  background-color: #fff;
+  border: 1px solid #7f7f7f;
+}
+
+/* line 257, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-stacked-view.my-stacked-view .sc-collection-item {
+  background-color: #bee8bc;
+  border-bottom: 1px solid #9dc09c;
+  border-top: 1px solid #d1ffcf;
+  font-size: 18px;
+  padding: 20px;
+}
+
+/* line 267, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-text-field-view.my-password-field {
+  font-size: 28px;
+  line-height: 48px;
+}
+
+/* line 273, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-view.my-view {
+  background-color: #fff;
+  border: 1px solid #7f7f7f;
+}
+/* line 277, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-view.my-view .sc-label-view.my-title-label {
+  text-align: center;
+}
+
+/* line 283, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-workspace-view.my-workspace-view {
+  background-color: #fff;
+  border: 1px solid #7f7f7f;
+}
+/* line 287, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-workspace-view.my-workspace-view .sc-label-view.my-title-label {
+  text-align: center;
+}
+/* line 291, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-workspace-view.my-workspace-view .sc-label-view.my-content-label {
+  background-color: #ffdca7;
+  color: white;
+  font-size: 30px;
+  line-height: 400px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
+}
+
+/* line 301, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.blue-sample-view {
+  background-color: #8de1ff;
+  color: white;
+  font-size: 60px;
+  line-height: 260px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
+}
+
+/* line 310, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.red-sample-view {
+  background-color: #ff6d7a;
+  color: white;
+  font-size: 60px;
+  line-height: 260px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+}
+
+/* line 319, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.green-sample-view {
+  background-color: #a9ff85;
+  color: white;
+  font-size: 60px;
+  line-height: 500px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+}
+
+/* line 328, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.pink-sample-view {
+  background-color: #fdaeff;
+  color: white;
+  font-size: 60px;
+  line-height: 110px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+}
+
+/* line 337, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.tab-view {
+  background-color: #fdaeff;
+  color: white;
+  font-size: 40px;
+  line-height: 287px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+}
+/* line 345, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.tab-view.pink-tab-view {
+  background-color: #fdaeff;
+}
+/* line 349, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.tab-view.blue-tab-view {
+  background-color: #78baff;
+}
+/* line 353, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.tab-view.gray-tab-view {
+  background-color: #aaaaaa;
+}
+/* line 357, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.tab-view.green-tab-view {
+  background-color: #2dce3d;
+}
+/* line 361, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.tab-view.orange-tab-view {
+  background-color: #ff9127;
+}
+/* line 364, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.tab-view.purple-tab-view {
+  background-color: #cb62ff;
+}
+/* line 367, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/apps/showcase/resources/stylesheet-css.scss */
+.ace.showcase.sc-label-view.tab-view.red-tab-view {
+  background-color: #ff2e2a;
+}
+

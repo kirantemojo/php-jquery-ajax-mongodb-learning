@@ -1,0 +1,27 @@
+/* line 2, tmp/chance/E-/sproutcore/development/sproutcore/getting_started/apps/taskapps/resources/main_page-css.scss */
+.ace.taskapps.sc-label-view.welcome-sprout {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  text-shadow: rgba(255, 255, 255, 0.5) 0 1px 1px;
+}
+
+/* line 8, tmp/chance/E-/sproutcore/development/sproutcore/getting_started/apps/taskapps/resources/main_page-css.scss */
+.ace.taskapps.sc-grid-view.gridview {
+  background-color: #c2c2c2;
+  border: 1px solid #000;
+}
+
+/* line 13, tmp/chance/E-/sproutcore/development/sproutcore/getting_started/apps/taskapps/resources/main_page-css.scss */
+.icon-view img {
+  height: 20px;
+  width: 20px;
+}
+
+/* line 18, tmp/chance/E-/sproutcore/development/sproutcore/getting_started/apps/taskapps/resources/main_page-css.scss */
+.icon-view label {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+

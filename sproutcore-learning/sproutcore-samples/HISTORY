@@ -1,0 +1,17 @@
+== 0.9.12
+
+- Twitter proxy now only proxies /statuses URLs.
+
+== 0.9.11
+
+- Added twitter sample client.
+
+== 0.9.9
+
+- Fixed minor bugs in sample apps.
+- Updated README to reflect Git instructions.
+- Updated to latest SproutCore
+
+== 5-21-2008
+
+Initial commit to Git

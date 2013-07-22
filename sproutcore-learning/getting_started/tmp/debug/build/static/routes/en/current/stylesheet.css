@@ -1,0 +1,20 @@
+/* line 18, tmp/chance//home/innominds/project/sproutcore/getting_started/apps/routes/resources/main_page-css.scss */
+.ace.routes.sc-label-view.welcome-label {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.5) 0 1px 1px;
+}
+
+/* line 24, tmp/chance//home/innominds/project/sproutcore/getting_started/apps/routes/resources/main_page-css.scss */
+.sc-label-view.title1 {
+  font-size: 20px;
+  color: #000000;
+}
+
+/* line 29, tmp/chance//home/innominds/project/sproutcore/getting_started/apps/routes/resources/main_page-css.scss */
+.sc-label-view.title2 {
+  font-size: 20px;
+  color: #ff0000;
+}
+
