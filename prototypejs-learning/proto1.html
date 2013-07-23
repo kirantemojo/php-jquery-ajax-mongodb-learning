@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Prototype - 1</title>
+	</head>
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js"></script>
+		<script>
+			var Person = Class.create();
+			Person.prototype = {
+				initialize : function(name){
+					this.name = name;
+				},
+				say : function(msg){
+					return this.name+' '+msg;
+				}
+			};
+			Person.prototype = Object.extend(new Person(),{
+				tell : function(msg){
+					return "Hi "+this.name;
+				}
+			});
+			var Pirate = new Person('Kiran');
+			console.log(Pirate.say('is a good boy'));
+			console.log(Pirate.tell('Hi'));
+
+			var Guy = Class.create({
+				initialize : function(name){
+					this.name = name;
+				},
+				say : function(msg){
+					return this.name + ' : ' + msg;
+				}
+			});
+			var Male = Class.create(Guy, {
+				say : function($super, message){
+					return $super(message) + '.Yarr!';
+				}
+			});
+			var john = new Male('Kiran Kumar');
+			console.log(john.say('macha'));
+			var Vulnerable = {
+				wound : function(){
+					return true;
+				},
+				kill : function(){
+					return false;
+				}
+			};
+			var Kiran = Class.create(Vulnerable,{
+				initialize : function(){
+					if(this.wound() && this.kill())
+					{
+						return (this.wound + ' ' + this.kill);
+					}
+					else{
+						alert('He is just hurted and sick');
+					}
+				}
+			});
+			Kiran.addMethods({
+				allhandsonDeck :function(n){
+				var voices = [1,2];
+				voices.forEach(function(i){
+					alert(i);
+				});
+			   }
+			});
+			new Kiran().allhandsonDeck();
+		</script>
+	</body>
+</html>

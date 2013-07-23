@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Prototype - 2 </title>
+		<style>
+			.active{
+				color:#ccc;
+			}
+			.deactive{
+				color:#f60;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="head"><h1>Prototype</h1></div>
+		<script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js"></script>
+		<script>
+			var MyUtils = {
+				truncate : function() {
+					console.log('Checking the Element Extra Methods');
+				}
+			};
+			Element.addMethods(MyUtils);
+			$('head').addClassName('active');
+			$('head').truncate();
+			$$('#head').forEach(function(i){
+				alert(i.getStyle('margin-left'));
+				alert(i.visible());
+			});
+			new Ajax.Request('https://www.facebook.com',{
+				method : 'GET',
+				parameters : { company : 'example',name :'kiran '},
+				onSuccess : function(data,json){
+					var response = data.responseText || "no response Text";
+					alert(json?Object.inspect(json):"no JSON response");
+					alert(response);
+				},
+				onFailure : function(){
+					alert(1);
+				}
+			});
+			var jsobj = { name:"Kiran", wallet:"Something", application:"Sproutit"};
+			console.log($H({ name:"Kiran", wallet:"Something", application:"Sproutit"}).toJSON());
+			console.log(Object.toJSON(jsobj));
+			$('head').observe('click',function(){
+				alert(0);
+				alert($('head').getStyle('width'));
+				$(this).stopObserving('click');
+			});
+			
+		</script>
+	</body>
+</html>
