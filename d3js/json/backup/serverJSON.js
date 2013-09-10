@@ -1,0 +1,226 @@
+var data = {
+  "links": [
+    {
+      "source": "Adam",
+      "target": "James",
+      "linkId": "1"
+    },
+    {
+      "source": "Addy",
+      "target": "James",
+      "linkId": "2"
+    },
+    {
+      "source": "George",
+      "target": "James",
+      "linkId": "3"
+    },
+    {
+      "source": "Hudson",
+      "target": "James",
+      "linkId": "4"
+    },
+    {
+      "source": "James",
+      "target": "George",
+      "linkId": "5"
+    }
+  ],
+  "linksData": [
+    {
+      "linkid": "1",
+      "imgPath": "images/person1.png",
+      "relationColor": "#555555",
+      "relationType": "has KOL Relation1",
+      "strength": "Strength 1",
+      "tabsData": [
+        {
+          "tabBodyText": "Association: 1"
+        },
+        {
+          "tabBodyText": "Top Connecting Objects: 1 European Medicines Agency (EMA), Committee for Medicinal Products for Human Use (CHMP)"
+        },
+        {
+          "tabBodyText": "Aggregated Link Type 1 Market Access - Market Access"
+        }
+      ],
+      "name": "Adam",
+      "tabsData1": [
+        {
+          "prime": "Adam role"
+        },
+        {
+          "prime": "primary affliation"
+        },
+        {
+          "prime": "fo"
+        },
+        {
+          "prime": "c"
+        },
+        {
+          "prime": "1"
+        },
+        {
+          "prime": "f"
+        }
+      ]
+    },
+    {
+      "linkid": "2",
+      "imgPath": "images/person2.png",
+      "relationColor": "#555555",
+      "relationType": "has KOL Relation2",
+      "strength": "Strength 2",
+      "tabsData": [
+        {
+          "tabBodyText": "Association: 2"
+        },
+        {
+          "tabBodyText": "Top Connecting Objects: 2 European Medicines Agency (EMA), Committee for Medicinal Products for Human Use (CHMP)"
+        },
+        {
+          "tabBodyText": "Aggregated Link Type 2 Market Access - Market Access"
+        }
+      ],
+      "name": "Addy",
+      "tabsData1": [
+        {
+          "prime": "Adam role"
+        },
+        {
+          "prime": "primary affliation"
+        },
+        {
+          "prime": "fo"
+        },
+        {
+          "prime": "c"
+        },
+        {
+          "prime": "1"
+        },
+        {
+          "prime": "f"
+        }
+      ]
+    },
+    {
+      "linkid": "3",
+      "imgPath": "images/person3.png",
+      "relationColor": "#555555",
+      "relationType": "has KOL Relation3",
+      "strength": "Strength 3",
+      "tabsData": [
+        {
+          "tabBodyText": "Association: 3"
+        },
+        {
+          "tabBodyText": "Top Connecting Objects: 3 European Medicines Agency (EMA), Committee for Medicinal Products for Human Use (CHMP)"
+        },
+        {
+          "tabBodyText": "Aggregated Link Type 3 Market Access - Market Access"
+        }
+      ],
+      "name": "George",
+      "tabsData1": [
+        {
+          "prime": "Adam role"
+        },
+        {
+          "prime": "primary affliation"
+        },
+        {
+          "prime": "fo"
+        },
+        {
+          "prime": "c"
+        },
+        {
+          "prime": "1"
+        },
+        {
+          "prime": "f"
+        }
+      ]
+    },
+    {
+      "linkid": "4",
+      "imgPath": "images/person4.png",
+      "relationColor": "#2288BB",
+      "relationType": "has KOL Relation4",
+      "strength": "Strength 4",
+      "tabsData": [
+        {
+          "tabBodyText": "Association: 4"
+        },
+        {
+          "tabBodyText": "Top Connecting Objects: 4 European Medicines Agency (EMA), Committee for Medicinal Products for Human Use (CHMP)"
+        },
+        {
+          "tabBodyText": "Aggregated Link Type 4 Market Access - Market Access"
+        }
+      ],
+      "name": "Hudson",
+      "tabsData1": [
+        {
+          "prime": "Adam role"
+        },
+        {
+          "prime": "primary affliation"
+        },
+        {
+          "prime": "fo"
+        },
+        {
+          "prime": "c"
+        },
+        {
+          "prime": "1"
+        },
+        {
+          "prime": "f"
+        }
+      ]
+    },
+    {
+      "linkid": "5",
+      "imgPath": "images/person4.png",
+      "relationColor": "#2288BB",
+      "relationType": "has KOL Relation4",
+      "strength": "Strength 4",
+      "tabsData": [
+        {
+          "tabBodyText": "Association: 5"
+        },
+        {
+          "tabBodyText": "Top Connecting Objects: 5 European Medicines Agency (EMA), Committee for Medicinal Products for Human Use (CHMP)"
+        },
+        {
+          "tabBodyText": "Aggregated Link Type 5 Market Access - Market Access"
+        }
+      ],
+      "name": "James",
+      "tabsData1": [
+        {
+          "prime": "Adam role"
+        },
+        {
+          "prime": "primary affliation"
+        },
+        {
+          "prime": "fo"
+        },
+        {
+          "prime": "c"
+        },
+        {
+          "prime": "1"
+        },
+        {
+          "prime": "f"
+        }
+      ]
+    }
+  ]
+}
