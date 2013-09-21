@@ -1,0 +1,20 @@
+		var svg = d3.select('#wrapper')
+			.append('svg')
+			.attr({'width':900,'height':600});
+
+		var radius = d3.scale.linear()
+						.domain([0,50])
+						.range([100,500]);
+
+		var data = [10,30,40,50];
+
+		var axis = d3.svg.axis();
+			axis.scale(radius).orient('bottom');
+			axis.tickValues(data);
+
+
+		var group = svg.append('g')
+					.attr('transform','translate('+ 100 +','+ 100 +')');
+
+		var line = group
+					.call(axis);S

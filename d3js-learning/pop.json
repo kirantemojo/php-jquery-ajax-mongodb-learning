@@ -1,0 +1,29 @@
+{
+	"links": [
+		{
+			"source": "Adam",
+			"target": "James",
+			"linkId": "1"
+		},
+		{
+			"source": "Addy",
+			"target": "James",
+			"linkId": "2"
+		},
+		{
+			"source": "George",
+			"target": "James",
+			"linkId": "3"
+		},
+		{
+			"source": "Hudson",
+			"target": "James",
+			"linkId": "4"
+		},
+		{
+			"source": "James",
+			"target": "George",
+			"linkId": "5"
+		}
+	]
+}

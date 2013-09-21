@@ -6,98 +6,98 @@ version: 3.3.0
 build: 3167
 */
 /* base.css, part of YUI's CSS Foundation */
-/* line 11, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 11, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 h1 {
   font-size: 138.5%;
 }
 
-/* line 15, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 15, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 h2 {
   font-size: 123.1%;
 }
 
-/* line 19, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 19, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 h3 {
   font-size: 108%;
 }
 
-/* line 23, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 23, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 h1, h2, h3 {
   margin: 1em 0;
 }
 
-/* line 27, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 27, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-/* line 31, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 31, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 abbr, acronym {
   border-bottom: 1px dotted #000;
   cursor: help;
 }
 
-/* line 36, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 36, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 em {
   font-style: italic;
 }
 
-/* line 40, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 40, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 blockquote, ul, ol, dl {
   margin: 1em;
 }
 
-/* line 44, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 44, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 ol, ul, dl {
   margin-left: 2em;
 }
 
-/* line 48, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 48, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 ol li {
   list-style: decimal outside;
 }
 
-/* line 52, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 52, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 ul li {
   list-style: disc outside;
 }
 
-/* line 56, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 56, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 dl dd {
   margin-left: 1em;
 }
 
-/* line 60, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 60, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 th, td {
   border: 1px solid #000;
   padding: .5em;
 }
 
-/* line 65, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 65, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 th {
   font-weight: bold;
   text-align: center;
 }
 
-/* line 70, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 70, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 caption {
   margin-bottom: .5em;
   /*centered so it doesn't blend in to other content*/
   text-align: center;
 }
 
-/* line 76, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 76, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 p, fieldset, table, pre {
   margin-bottom: 1em;
 }
 
-/* line 81, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
+/* line 81, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/base-css.scss */
 input[type=text], input[type=password], textarea {
   width: 12.25em;
   *width: 11.9em;
 }
 
-/* line 3, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/core-css.scss */
+/* line 3, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/core-css.scss */
 .ellipsis {
   white-space: nowrap;
   overflow: hidden;
@@ -106,7 +106,7 @@ input[type=text], input[type=password], textarea {
   -ms-text-overflow: ellipsis;
 }
 
-/* line 11, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/core-css.scss */
+/* line 11, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/core-css.scss */
 body {
   position: absolute;
   margin: 0px;
@@ -129,7 +129,7 @@ build: 3167
 /**
  * Nudge down to get to 13px equivalent for these form elements
  */
-/* line 18, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/fonts-css.scss */
+/* line 18, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/fonts-css.scss */
 select,
 input,
 button,
@@ -137,13 +137,13 @@ textarea {
   font: 99% arial,helvetica,clean,sans-serif;
 }
 
-/* line 23, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/fonts-css.scss */
+/* line 23, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/fonts-css.scss */
 table {
   font-size: inherit;
   font: 100%;
 }
 
-/* line 33, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/fonts-css.scss */
+/* line 33, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/fonts-css.scss */
 pre,
 code,
 kbd,
@@ -165,13 +165,13 @@ build: 3167
 	TODO will need to remove settings on HTML since we can't namespace it.
 	TODO with the prefix, should I group by selector or property for weight savings?
 */
-/* line 14, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 14, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 html {
   color: #000;
   background: #FFF;
 }
 
-/* line 44, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 44, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 body,
 div,
 dl,
@@ -201,19 +201,19 @@ td {
   padding: 0;
 }
 
-/* line 48, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 48, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 53, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 53, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 fieldset,
 img {
   border: 0;
 }
 
-/* line 64, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 64, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 address,
 caption,
 cite,
@@ -226,18 +226,18 @@ var {
   font-weight: normal;
 }
 
-/* line 69, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 69, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 li {
   list-style: none;
 }
 
-/* line 74, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 74, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 caption,
 th {
   text-align: left;
 }
 
-/* line 82, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 82, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 h1,
 h2,
 h3,
@@ -248,30 +248,30 @@ h6 {
   font-weight: normal;
 }
 
-/* line 87, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 87, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 q:before,
 q:after {
   content: '';
 }
 
-/* line 91, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 91, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 abbr,
 acronym {
   border: 0;
   font-variant: normal;
 }
 
-/* line 96, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 96, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 sup {
   vertical-align: text-top;
 }
 
-/* line 99, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 99, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 sub {
   vertical-align: text-bottom;
 }
 
-/* line 104, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 104, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 input,
 textarea,
 select {
@@ -280,14 +280,14 @@ select {
   font-weight: inherit;
 }
 
-/* line 112, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 112, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 input,
 textarea,
 select {
   *font-size: 100%;
 }
 
-/* line 116, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
+/* line 116, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/reset-css.scss */
 legend {
   color: #000;
 }
@@ -299,7 +299,7 @@ legend {
  - use "pointer" cursor unless otherwise required 
  - clip overflow
 */
-/* line 11, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
+/* line 11, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
 .sc-view {
   cursor: default;
   overflow: hidden;
@@ -313,37 +313,37 @@ legend {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   /* Views do not allow text selection unless you set isTextSelectable to YES.*/
 }
-/* line 22, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
+/* line 22, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
 .sc-view.allow-select {
   -moz-user-select: text;
   -khtml-user-select: text;
   user-select: text;
   cursor: text;
 }
-/* line 31, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
+/* line 31, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
 .sc-view.text-align-right {
   text-align: right;
 }
-/* line 34, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
+/* line 34, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
 .sc-view.textAlignRight {
   text-align: right;
 }
-/* line 37, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
+/* line 37, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
 .sc-view img {
   border: none;
 }
 
-/* line 44, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
+/* line 44, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
 div.sc-view {
   border: solid 0 transparent;
 }
 
-/* line 49, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
+/* line 49, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
 .sc-view:focus {
   outline: none;
 }
 
-/* line 53, tmp/chance//home/innominds/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
+/* line 53, tmp/chance//home/kiran/-rvm/gems/ruby-1-9-3-p448/gems/sproutcore-1-9-2/lib/frameworks/sproutcore/frameworks/yuireset/resources/view-css.scss */
 .sc-hidden {
   display: none !important;
 }
